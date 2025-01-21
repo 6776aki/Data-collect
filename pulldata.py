@@ -1,8 +1,7 @@
 import requests
 import csv
-import time
 import os
-from datetime import datetime, timedelta,timezone
+from datetime import datetime, timedelta
 import argparse
 
 def fetch_binance_kline(symbol, interval, limit=1000, start_time=None, end_time=None):
